@@ -25,10 +25,12 @@ html {
  */
 
 ::-moz-selection {
+  background: #44c8f5;
+  color: white;
 }
 
 ::selection {
-  background: #44c8f8;
+  background: #44c8f5;
   color: white;
 }
 
@@ -150,12 +152,12 @@ th {
 
 th,
 td {
-    padding: 4px 8px;
-    border-bottom: 1px solid gainsboro;
+  padding: 4px 8px;
+  border-bottom: 1px solid gainsboro;
 }
 
-.odd{
-    background-color: whitesmoke;
+.odd {
+  background-color: whitesmoke;
 }
 /*
     Media Queries
